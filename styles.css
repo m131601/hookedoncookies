@@ -1,0 +1,99 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: Arial, sans-serif;
+  background-color: #000; /* Light gray background color */
+  color: white;
+}
+/* Adjust the width and height of the carousel container */
+#carouselExampleIndicators {
+  width: 1000px; /* Set your desired width */
+  height: 50px; /* Set your desired height */
+}
+
+/* Adjust the width and height of the carousel images */
+.carousel-item img {
+  width: 1000%; /* Make the image fill the entire carousel container */
+  height: 50%; /* Make the image fill the entire carousel container */
+  object-fit: cover; /* Ensure the image covers the entire container */
+  display: flex;
+  justify-content: center; /* Center the carousel horizontally */
+  align-items: center; /* Center the carousel vertically */
+  height: 100vh; /* Adjust as needed */
+}
+
+
+header {
+  background-color: #000; /* Dark gray background color for the header */
+  padding: 20px;
+}
+/* Style the hero video section */
+.hero-video {
+  position: relative;
+  width: 100%;
+  height: 100vh;
+  overflow: hidden;
+}
+
+.hero-video video {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+.menu {
+  background-color: #000; /* Background color for the menu */
+  padding: 20px;
+}
+
+.item {
+  border-bottom: 1px solid #fff; /* Separator between items */
+  padding: 10px 0;
+}
+
+.item h3 {
+  margin: 0;
+}
+
+.item p {
+  margin: 0;
+  font-size: 16px;
+  color: #e2c68a; /* Price color */
+}
+
+
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.logo img {
+  height: 250px; /* Adjust the height of the logo as needed */
+}
+
+nav ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+}
+
+nav ul li {
+  margin-right: 20px;
+}
+
+nav ul li a {
+  color: white;
+  text-decoration: none;
+}
+/* Media query for screens smaller than 768px (typical mobile devices) */
+@media (max-width: 768px) {
+  /* Adjustments for mobile devices */
+  /* For example, you can stack navigation links vertically */
+  nav {
+    flex-direction: column;
+  }
+}
