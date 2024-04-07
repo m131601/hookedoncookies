@@ -19,7 +19,9 @@ body {
   display: flex;
   justify-content: center; /* Center the carousel horizontally */
   align-items: center; /* Center the carousel vertically */
-  height: 100vh; /* Adjust as needed */
+  height: 50vh; /* Adjust as needed */
+  padding: 40px;
+  margin-top: 10px;
 }
 
 
